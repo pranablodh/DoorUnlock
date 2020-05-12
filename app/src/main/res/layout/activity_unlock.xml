@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".unlock"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:src="@mipmap/ic_launcher_round"
+        android:scaleType="centerCrop"
+        app:civ_border_width="@dimen/_3sdp"
+        app:civ_border_color="@color/colorPrimary"
+        android:layout_marginBottom="@dimen/_40sdp"/>
+
+
+    <Button
+        android:id="@+id/unlock"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:text="@string/unlock"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_13sdp"
+        android:elevation="@dimen/_5sdp"
+        app:rippleColor="@color/colorYellow"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_25sdp"
+        android:background="@color/colorPrimary"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:text="Time Remaining: 20s"
+        android:gravity="center"
+        android:textSize="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/lock"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:text="@string/lock"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_13sdp"
+        android:elevation="@dimen/_5sdp"
+        app:rippleColor="@color/colorYellow"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_25sdp"
+        android:background="@color/colorPrimary"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

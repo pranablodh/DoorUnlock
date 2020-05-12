@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".newFace"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:src="@mipmap/ic_launcher_round"
+        android:scaleType="centerCrop"
+        app:civ_border_width="@dimen/_3sdp"
+        app:civ_border_color="@color/colorPrimary"
+        android:layout_marginBottom="@dimen/_40sdp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_40sdp">
+
+        <EditText
+            android:id="@+id/finger_id"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:hint="@string/finger_id"
+            android:paddingStart="@dimen/_5sdp"
+            android:paddingEnd="0dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:text="@string/register"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_13sdp"
+        android:elevation="@dimen/_5sdp"
+        app:rippleColor="@color/colorYellow"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_25sdp"
+        android:background="@color/colorPrimary"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

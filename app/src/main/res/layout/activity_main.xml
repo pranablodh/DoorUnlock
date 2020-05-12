@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/new_reg"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:text="@string/new_face_registration"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_13sdp"
+        android:elevation="@dimen/_5sdp"
+        app:rippleColor="@color/colorYellow"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_25sdp"
+        android:background="@color/colorPrimary"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/unlock"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:text="@string/unlock"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_13sdp"
+        android:elevation="@dimen/_5sdp"
+        app:rippleColor="@color/colorYellow"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:background="@color/colorPrimary"
+        android:textAllCaps="false"/>
+
+
+</LinearLayout>

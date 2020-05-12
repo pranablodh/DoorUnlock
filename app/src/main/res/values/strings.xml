@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Door Unlock</string>
+    <string name="new_face_registration">New Face Registration</string>
+    <string name="unlock">Unlock</string>
+    <string name="finger_id">Finger ID</string>
+    <string name="register">Register</string>
+    <string name="lock">Lock</string>
+    <string name="please_wait">Please Wait.....</string>
+</resources>
